@@ -6,9 +6,7 @@ int z = (int)(random(0,20));
 void setup(){
  size(1000,800);
  strokeWeight(5);
- PImage photo = loadImage("Storm Cloud.jpg");
- photo.resize(1000,800);
- background(photo);
+ background(0,0,0);
 }
 void draw(){
  stroke(random(150,255),random(150,250),random(10,100));
@@ -28,7 +26,6 @@ void mousePressed(){
  startY = 0;
  endX = 700;
  endY = 100;
- PImage photo = loadImage("Storm Cloud.jpg");
- photo.resize(1000,800);
- background(photo);
+ stroke(0,0,0);
+ background(0,0,0);
 }
